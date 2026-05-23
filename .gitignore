@@ -2,4 +2,4 @@ build/
 .venv/
 results/*.csv
 charts/*.png
-.vscode/
+.vscode/*
