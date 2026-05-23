@@ -1,5 +1,5 @@
 build/
 .venv/
-results/*.csv
-charts/*.png
+# results/*.csv
+# charts/*.png
 .vscode/*
