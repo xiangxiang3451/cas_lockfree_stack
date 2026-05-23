@@ -12,9 +12,6 @@ private:
 public:
     MutexStack() = default;
 
-    MutexStack(const MutexStack&) = delete;
-    MutexStack& operator=(const MutexStack&) = delete;
-
     void push(int value) {
         std::lock_guard<std::mutex> lock(mtx);
         data.push(value);
